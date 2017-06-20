@@ -1,0 +1,23 @@
+{
+  "name": "mooneat",
+  "version": "1.0.0",
+  "description": "make our moon",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOGTT/mooneat.git"
+  },
+  "author": "t.h",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DOGTT/mooneat/issues"
+  },
+  "homepage": "https://github.com/DOGTT/mooneat#readme",
+  "dependencies": {
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {}
+}
