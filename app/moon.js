@@ -104,7 +104,7 @@ module.exports = function(){
             flag_r = false;
         if(p_index>point_count)
             flag_r = true;
-        geometry_line.setDrawRange( 0, 15 );
+         geometry_line.setDrawRange( 0, p_index );
 
         if(mesh_line.position.x!=mouseX||
             mesh_line.position.z!=mouseY){
