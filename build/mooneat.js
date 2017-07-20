@@ -129,7 +129,7 @@ module.exports = function(){
             250,4);
         //hilbert_line[200] = new THREE.Vector3(0,0,0);
         //hilbert_line[201] = new THREE.Vector3(0,0,0);
-        var spline = new THREE.Spline(hilbert_line);
+        var spline = new THREE.CatmullRomCurve3(hilbert_line);
         point_count = subdivisions*hilbert_line.length;
         geometry_line = new THREE.BufferGeometry();
         var positions = new Float32Array(point_count*3);
@@ -278,7 +278,7 @@ exports = module.exports = __webpack_require__(5)(undefined);
 
 
 // module
-exports.push([module.i, "body{background:#0ff0ff};\n", ""]);
+exports.push([module.i, "div{\n    margin: 0px;\n    display: inline-block;\n}\nbody{\n    font-family: Monospace;\n    background-color: #000;\n    color: #fff;\n    margin: 0px;\n    overflow: hidden;\n}\n#c1_stat{\n    float:right;\n    padding-right: 20px;\n}\na{\n    color: #fff;\n}\n#info{\n    font-size: 20px;\n    color: #fff;\n    position: absolute;\n    top: 20px;\n    left:20px;\n    width: 100%;\n    z-index: 100;\n    display:block;\n}", ""]);
 
 // exports
 

@@ -1,1 +1,28 @@
-body{background:#0ff0ff};
+div{
+    margin: 0px;
+    display: inline-block;
+}
+body{
+    font-family: Monospace;
+    background-color: #000;
+    color: #fff;
+    margin: 0px;
+    overflow: hidden;
+}
+#c1_stat{
+    float:right;
+    padding-right: 20px;
+}
+a{
+    color: #fff;
+}
+#info{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left:20px;
+    width: 100%;
+    z-index: 100;
+    display:block;
+}
