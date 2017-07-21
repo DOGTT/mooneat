@@ -43,7 +43,7 @@ module.exports = function() {
         scene.add(directionalLight);
 
         hilbert_line = hilbert3D(new THREE.Vector3(0, 0, 0),
-            250, 2);
+            400, 4);
         //hilbert_line[200] = new THREE.Vector3(0,0,0);
         //hilbert_line[201] = new THREE.Vector3(0,0,0);
         var spline = new THREE.CatmullRomCurve3(hilbert_line);
@@ -100,9 +100,9 @@ module.exports = function() {
         var time = Date.now();
         var zz = time % 10000;
         if (flag_r) {
-            p_index -= 3;
+            p_index -= 8;
         } else {
-            p_index += 3;
+            p_index += 8;
         }
         if (p_index <= 0)
             flag_r = false;
