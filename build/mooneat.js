@@ -127,7 +127,7 @@ module.exports = function() {
         directionalLight.target.position.set(0, 0, 0);
         scene.add(directionalLight);
 
-        hilbert_line = hilbert2D(new THREE.Vector3(0, 0, 0),
+        hilbert_line = hilbert3D(new THREE.Vector3(0, 0, 0),
             250, 4);
         //hilbert_line[200] = new THREE.Vector3(0,0,0);
         //hilbert_line[201] = new THREE.Vector3(0,0,0);
